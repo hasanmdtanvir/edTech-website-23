@@ -4,6 +4,20 @@ body {
 
 }
 
+.slider-img-shadow {
+    filter: brightness(40%);
+}
+
+.header-area,
+.course-section,
+.elearning-section,
+.register-section,
+.successfull-student-section,
+.feedback-section,
+.question-section {
+    margin-bottom: 100px;
+}
+
 .fa-star {
     color: #FBBF24;
 }
@@ -59,6 +73,7 @@ footer {
 }
 
 /* media query for important icon in students feedback  */
+
 @media only screen and (max-width: 700px) {
     .important-icon-left {
         display: none;
@@ -66,5 +81,33 @@ footer {
 
     .important-icon-right {
         display: none;
+    }
+
+    .carousel-writting h5 {
+        font-size: 0.8em;
+    }
+
+    .carousel-writting p {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .important-icon-left {
+        display: none;
+    }
+
+    .important-icon-right {
+        display: none;
+    }
+
+    .carousel-section {
+        position: relative;
+    }
+
+    .carousel-writting {
+        position: absolute;
+        top: 40%;
+        left: 50%;
     }
 }
