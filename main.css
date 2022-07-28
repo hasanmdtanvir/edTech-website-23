@@ -8,7 +8,10 @@ body {
     filter: brightness(40%);
 }
 
-.header-area,
+.header-area {
+    margin-bottom: 50px;
+}
+
 .course-section,
 .elearning-section,
 .register-section,
@@ -90,9 +93,13 @@ footer {
     .carousel-writting p {
         font-size: 0.6em;
     }
+
+    footer h4 {
+        font-size: 1em;
+    }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 701px) and (max-width: 991px) {
     .important-icon-left {
         display: none;
     }
