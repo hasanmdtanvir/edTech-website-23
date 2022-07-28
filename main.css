@@ -4,6 +4,44 @@ body {
 
 }
 
+.fa-star {
+    color: #FBBF24;
+}
+
+.card-body {
+    position: relative;
+}
+
+.important-icon-left {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: -20px;
+}
+
+.important-icon-left i {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.important-icon-right {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    right: -20px;
+}
+
+.important-icon-right i {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
 footer {
     margin-top: 100px;
     width: 100%;
@@ -18,4 +56,15 @@ footer {
     border-radius: 50%;
     font-size: 25px;
     margin-right: 15px;
+}
+
+/* media query for important icon in students feedback  */
+@media only screen and (max-width: 700px) {
+    .important-icon-left {
+        display: none;
+    }
+
+    .important-icon-right {
+        display: none;
+    }
 }
